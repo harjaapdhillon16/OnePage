@@ -4,17 +4,18 @@ import styled from 'styled-components';
 import { theme } from '../utils/theme';
 
 const Container = styled.div`
+  width: 100%;
   flex-direction: ${props => (props.reverse ? 'row-reverse' : '')};
   border: 0px solid ${theme.textColorLite};
   border-bottom-width: 0.8px;
-  img {
-    margin-top: 12px;
-  }
 `;
 
 const HeadingWithImageSpotLight = ({ title, image, reverse }) => {
   return (
-    <Container reverse={reverse} className="columns is-multiline is-vcentered">
+    <Container
+      reverse={reverse}
+      className="columns is-multiline is-vcentered is-gapless"
+    >
       <div className="column is-1" />
       <div className="column is-7">
         <section className="section">
@@ -32,7 +33,7 @@ const HeadingWithImageSpotLight = ({ title, image, reverse }) => {
             <span className="code">onscroll</span> transition modifier
             (details).
           </h1>
-          <button className="button" type="button">
+          <button className="button is-medium" type="button">
             Get Started
           </button>
         </section>

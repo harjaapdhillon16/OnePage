@@ -1,11 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Container = styled.div``;
+import { theme } from '../utils/theme';
+
+const Container = styled.div`
+  width: 100%;
+  border: 0px solid ${theme.textColorLite};
+  border-bottom-width: 0.8px;
+`;
 
 const HeadingWithImage = () => {
   return (
-    <Container className="columns is-multiline is-vcentered">
+    <Container className="columns is-multiline is-vcentered is-gapless">
       <div className="column is-1" />
       <div className="column is-5">
         <section className="section">
@@ -20,9 +26,10 @@ const HeadingWithImage = () => {
             or opening statement. You can customize its style, scheme, color,
             size, orientation, content alignment, and image position, as well as
             assign it an optional <span className="code">onload</span> or{' '}
-            <span className="code">onscroll</span> transition modifier (details).
+            <span className="code">onscroll</span> transition modifier
+            (details).
           </h1>
-          <button className="button" type="button">
+          <button className="button is-medium" type="button">
             Get Started
           </button>
         </section>

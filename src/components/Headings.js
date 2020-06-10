@@ -7,6 +7,7 @@ import HeadingWithImageSpotLight from './HeadingWithImageSpotLight';
 import { theme } from '../utils/theme';
 
 const Container = styled.div`
+  width: 100%;
   text-align: left;
   img {
     object-fit: cover;
@@ -26,8 +27,8 @@ const Container = styled.div`
   }
   button {
     box-shadow: none !important;
-    padding: 1.5rem 3rem;
     border-radius: 100px;
+  
   }
   .underline {
     text-decoration: underline;

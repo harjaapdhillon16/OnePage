@@ -7,6 +7,7 @@ import config from '../utils/config';
 
 const Container = styled.div`
   min-height: 70vh;
+  width: 100% !important;
 `;
 
 const IndexLayout = ({ children }) => (
