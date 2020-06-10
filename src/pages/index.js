@@ -13,8 +13,8 @@ const Container = styled.div`
   width: 100%;
   .code {
     background-color: ${theme.textColorLite};
-    padding:3px;
-    border-radius:5px;
+    padding: 3px;
+    border-radius: 5px;
   }
 `;
 

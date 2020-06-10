@@ -20,9 +20,9 @@ const HeadingWithImageSpotLight = ({ title, image, reverse }) => {
         <section className="section">
           <h1 className="title is-1 has-text-weight-light">{title}</h1>
           <h1 className="subtitle is-8 	">
-            This is a Spotlight element, and it's generally used – as its name
-            implies – to spotlight a particular feature, subject, or pretty much
-            whatever. You can customize its{' '}
+            This is a Spotlight element, and it&#39;s generally used – as its
+            name implies – to spotlight a particular feature, subject, or pretty
+            much whatever. You can customize its{' '}
             <span className="underline">
               style, scheme, color, orientation, content alignment , and image
               position,
