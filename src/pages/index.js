@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import Heading from '../components/Headings';
 import Gallery from '../components/Gallery';
 import Items from '../components/Items';
+import AdditionalElements from '../components/AdditionalElements';
 
 import { theme } from '../utils/theme';
 
@@ -16,6 +17,9 @@ const Container = styled.div`
     background-color: ${theme.textColorLite};
     padding: 3px;
     border-radius: 5px;
+  }
+  .underline {
+    text-decoration: underline;
   }
 `;
 
@@ -28,6 +32,7 @@ export default class IndexPage extends React.Component {
           <Heading />
           <Gallery />
           <Items />
+          <AdditionalElements />
         </Container>
       </Layout>
     );

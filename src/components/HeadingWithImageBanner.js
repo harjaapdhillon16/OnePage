@@ -21,7 +21,7 @@ const HeadingWithImage = () => {
             by <span className="underline">HTML5 UP</span> and released for free
             under the Creative Commons.
           </h1>
-          <h1 className="subtitle is-6 	">
+          <h1 className="subtitle is-6 has-text-black	">
             This is a Banner element, and it's generally used as an introduction
             or opening statement. You can customize its style, scheme, color,
             size, orientation, content alignment, and image position, as well as

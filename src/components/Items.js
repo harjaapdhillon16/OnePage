@@ -3,11 +3,91 @@ import styled from 'styled-components';
 
 import IndividualItem from './IndividualItem';
 
+import { theme } from '../utils/theme';
+
 const Section = styled.section`
   .is-5 {
     line-height: 2rem;
   }
+  border: 0px solid ${theme.textColorLite};
+  border-bottom-width: 1px;
 `;
+
+const Data = [
+  {
+    title: 'One',
+    bottomBorder: true,
+    sideBorder: false,
+    icon: 'far fa-gem',
+  },
+  {
+    title: 'Two',
+    bottomBorder: true,
+    sideBorder: true,
+    icon: 'fas fa-save',
+  },
+  {
+    title: 'Three',
+    bottomBorder: true,
+    sideBorder: false,
+    icon: 'fas fa-chart-bar',
+  },
+  {
+    title: 'Four',
+    bottomBorder: true,
+    sideBorder: false,
+    icon: 'fas fa-wifi',
+  },
+  {
+    title: 'Five',
+    bottomBorder: true,
+    sideBorder: true,
+    icon: 'fas fa-cog',
+  },
+  {
+    title: 'Six',
+    bottomBorder: true,
+    sideBorder: false,
+    icon: 'fas fa-paper-plane',
+  },
+  {
+    title: 'Seven',
+    bottomBorder: true,
+    sideBorder: false,
+    icon: 'fas fa-desktop',
+  },
+  {
+    title: 'Eight',
+    bottomBorder: true,
+    sideBorder: true,
+    icon: 'fas fa-sync',
+  },
+  {
+    title: 'Nine',
+    bottomBorder: true,
+    sideBorder: false,
+    icon: 'fas fa-hashtag',
+  },
+
+  {
+    title: 'Ten',
+    bottomBorder: false,
+    sideBorder: false,
+    icon: 'fas fa-bolt',
+  },
+  {
+    title: 'Eleven',
+    bottomBorder: false,
+    sideBorder: true,
+    icon: 'fas fa-envelope',
+  },
+  {
+    title: 'Twelve',
+    bottomBorder: false,
+    sideBorder: false,
+    icon: 'fas fa-leaf',
+  },
+];
 
 const Items = () => {
   return (
@@ -27,16 +107,17 @@ const Items = () => {
               (details).
             </h1>
             {/* map for the IndividualItem in the item container */}
-            <div className="columns is-multiline is-centered">
-              <div className="column is-4">
-                <IndividualItem />
-              </div>
-              <div className="column is-4">
-                <IndividualItem />
-              </div>
-              <div className="column is-4">
-                <IndividualItem />
-              </div>
+            <div className="columns is-multiline is-centered is-gapless">
+              {Data.map(data => (
+                <div className="column is-4">
+                  <IndividualItem
+                    title={data.title}
+                    sideBorder={data.sideBorder}
+                    bottomBorder={data.bottomBorder}
+                    icon={data.icon}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>
