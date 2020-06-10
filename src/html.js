@@ -20,12 +20,16 @@ export default class HTML extends React.Component {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+            rel="stylesheet"
+          />
           <script
             defer
             src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
             rel="stylesheet"
           />
           <script src="/js/scripts.js" />

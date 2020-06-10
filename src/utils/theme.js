@@ -36,10 +36,10 @@ export const theme = {
   fontSizeLarge: 22,
   textColor: darkShades, // '#0A0B11',
   textColorInverse: lightShades,
-  textColorLite: '#8B8989',
+  textColorLite: '#cccccc',
   menuTintColor: darkAccent,
-  primaryFontFamily: "'Open Sans', sans-serif",
-  secondaryFontFamily: "'Open Sans', sans-serif",
+  primaryFontFamily: "'Source Sans Pro', sans-serif",
+  secondaryFontFamily: "'Source Sans Pro', sans-serif",
   boxShadow: 'rgba(0,0,0,0.08) 0px 7px 18px',
 };
 
