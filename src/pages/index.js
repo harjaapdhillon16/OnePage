@@ -5,6 +5,7 @@ import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import Heading from '../components/Headings';
 import Gallery from '../components/Gallery';
+import Items from '../components/Items';
 
 import { theme } from '../utils/theme';
 
@@ -26,6 +27,7 @@ export default class IndexPage extends React.Component {
         <Container>
           <Heading />
           <Gallery />
+          <Items />
         </Container>
       </Layout>
     );

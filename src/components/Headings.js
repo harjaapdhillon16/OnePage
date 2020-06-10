@@ -13,12 +13,6 @@ const Container = styled.div`
     object-fit: cover;
     padding: 0px;
   }
-  .is-1 {
-    font-size: 5rem;
-  }
-  .is-6 {
-    font-size: 1.1rem;
-  }
   .subtitle {
     padding-top: 20px;
     color: ${theme.textColorLite};
@@ -28,7 +22,6 @@ const Container = styled.div`
   button {
     box-shadow: none !important;
     border-radius: 100px;
-  
   }
   .underline {
     text-decoration: underline;
