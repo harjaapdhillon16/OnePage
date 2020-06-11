@@ -34,7 +34,7 @@ const HeadingWithImageSpotLight = ({ title, image, reverse }) => {
             (details).
           </h1>
           <button className="button is-medium" type="button">
-            Get Started
+            <h1 className="title has-text-weight-light is-4">Get Started</h1>
           </button>
         </section>
       </div>
