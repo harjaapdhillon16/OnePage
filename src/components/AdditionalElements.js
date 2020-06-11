@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { theme } from '../utils/theme';
 import TextSection from './TextSection';
 import HeadingSection from './HeadingSection';
+import List from './List';
 
 const Section = styled.section`
   .is-6 {
@@ -42,6 +43,7 @@ const AdditionalElements = () => {
 
         <TextSection />
         <HeadingSection />
+        <List />
       </div>
     </Section>
   );
