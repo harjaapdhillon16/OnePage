@@ -9,7 +9,7 @@ const Section = styled.section`
   .is-5 {
     line-height: 2rem;
   }
-  border: 0px solid ${theme.textColorLite};
+  border: 0px solid ${theme.borderColor};
   border-bottom-width: 1px;
 `;
 

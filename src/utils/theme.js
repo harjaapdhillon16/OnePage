@@ -25,7 +25,7 @@ export const theme = {
   dangerColor: '#f44336',
 
   primaryColor: mainBrandColor,
-  borderColor: '#e0e6ef',
+  borderColor: '#cccccc',
   backgroundColor: '#FFFFFF',
   backgroundInputColor: lightShades,
   backgroundInputColorDark: darkShades,
@@ -37,6 +37,7 @@ export const theme = {
   textColor: darkShades, // '#0A0B11',
   textColorInverse: lightShades,
   textColorLite: '#cccccc',
+  codeColor: '#f2f2f2',
   menuTintColor: darkAccent,
   primaryFontFamily: "'Source Sans Pro', sans-serif",
   secondaryFontFamily: "'Source Sans Pro', sans-serif",

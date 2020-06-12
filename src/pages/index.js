@@ -14,7 +14,7 @@ const Container = styled.div`
   text-align: center;
   width: 100%;
   .code {
-    background-color: ${theme.textColorLite};
+    background-color: ${theme.codeColor};
     padding: 3px;
     border-radius: 5px;
   }

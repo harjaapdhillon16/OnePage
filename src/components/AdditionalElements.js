@@ -5,7 +5,11 @@ import { theme } from '../utils/theme';
 import TextSection from './TextSection';
 import HeadingSection from './HeadingSection';
 import List from './List';
-
+import BlockQuote from './BlockQuote';
+import Code from './Code';
+import Icons from './Icons';
+import Buttons from './Buttons';
+import Actions from './Actions';
 const Section = styled.section`
   .is-6 {
     line-height: 1.5rem;
@@ -44,6 +48,11 @@ const AdditionalElements = () => {
         <TextSection />
         <HeadingSection />
         <List />
+        <BlockQuote />
+        <Code />
+        <Icons />
+        <Buttons />
+        <Actions />
       </div>
     </Section>
   );
