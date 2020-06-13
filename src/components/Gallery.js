@@ -1,13 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Slider from 'react-slick';
+
 const Section = styled.section`
   .is-5 {
     line-height: 2rem;
   }
+  .container {
+    padding-bottom: 2rem;
+  }
+  .section {
+    padding-bottom: 1rem;
+  }
 `;
+const Pictures = [
+  { image: 'camera.jpg' },
+  { image: 'city.jpg' },
+  { image: 'fox.jpg' },
+  { image: 'mountain.jpg' },
+];
 
 const Gallery = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    adaptiveHeight: true,
+  };
   return (
     <Section className="section">
       <div className="container has-text-centered">
@@ -27,6 +49,13 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <Slider {...settings}>
+        {Pictures.map(data => (
+          <div>
+            <img src={`images/${data.image}`} />
+          </div>
+        ))}
+      </Slider>
     </Section>
   );
 };

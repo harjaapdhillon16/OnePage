@@ -7,6 +7,8 @@ import Heading from '../components/Headings';
 import Gallery from '../components/Gallery';
 import Items from '../components/Items';
 import AdditionalElements from '../components/AdditionalElements';
+import Elements from '../components/Elements';
+import Footer from '../components/Footer';
 
 import { theme } from '../utils/theme';
 
@@ -33,6 +35,8 @@ export default class IndexPage extends React.Component {
           <Gallery />
           <Items />
           <AdditionalElements />
+          <Elements />
+          <Footer />
         </Container>
       </Layout>
     );
