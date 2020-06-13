@@ -10,6 +10,11 @@ import Code from './Code';
 import Icons from './Icons';
 import Buttons from './Buttons';
 import Actions from './Actions';
+import Form from './Form';
+import Table from './Table';
+import Images from './Images';
+import Box from './Box';
+
 const Section = styled.section`
   .is-6 {
     line-height: 1.5rem;
@@ -53,6 +58,10 @@ const AdditionalElements = () => {
         <Icons />
         <Buttons />
         <Actions />
+        <Form />
+        <Table />
+        <Images />
+        <Box />
       </div>
     </Section>
   );
