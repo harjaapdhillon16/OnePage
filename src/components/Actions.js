@@ -44,7 +44,7 @@ const Actions = () => {
       </div>
       <div className="column is-7 has-text-left">
         <h1 className="subtitle is-6"> Defaults</h1>
-        <div className="columns is-multiline is-mobile is-gapless">
+        <div className="columns is-multiline is-mobile ">
           <div className="column ">
             <button type="button" className="button is-primary black normal">
               DEFAULT
@@ -57,7 +57,7 @@ const Actions = () => {
           </div>
         </div>
         <h1 className="subtitle is-6"> Small</h1>
-        <div className="columns is-multiline is-mobile is-gapless">
+        <div className="columns is-multiline is-mobile ">
           <div className="column is-3">
             <button type="button" className="button is-primary black small">
               Small
