@@ -58,12 +58,12 @@ const Actions = () => {
         </div>
         <h1 className="subtitle is-6"> Small</h1>
         <div className="columns is-multiline is-mobile ">
-          <div className="column is-3">
+          <div className="column is-4">
             <button type="button" className="button is-primary black small">
               Small
             </button>
           </div>
-          <div className="column is-2">
+          <div className="column is-4">
             <button type="button" className="button small">
               Small
             </button>
